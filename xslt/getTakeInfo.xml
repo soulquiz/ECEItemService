@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="getTakeInfo.xsl"?>
+<personalInformation>
+  <personal name="ผศ.ดร.ธีรธรรม บุณยะกุล">
+    <department>ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์</department>
+    <order_number>5</order_number>
+    <take_date>0001-11-16</take_date>
+  </personal>
+</personalInformation>

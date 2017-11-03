@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="getExamineInfo.xsl"?>
+<personalInformation>
+  <personal name="นางสาวองค์อร รัตนนาถถาวร">
+    <department>ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์</department>
+    <order_number>5</order_number>
+    <rank>กรรมการ</rank>
+  </personal>
+  <personal name="นายนพดล ฉาบแก้ว">
+    <department>ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์</department>
+    <order_number>5</order_number>
+    <rank>กรรมการ</rank>
+  </personal>
+  <personal name="ผศ.ดร.ธีรธรรม บุณยะกุล">
+    <department>ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์</department>
+    <order_number>5</order_number>
+    <rank>ประธาน</rank>
+  </personal>
+</personalInformation>
