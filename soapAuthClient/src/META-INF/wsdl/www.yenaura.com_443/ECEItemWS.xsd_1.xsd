@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-740-. --><xs:schema xmlns:tns="http://eceitem.me.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://eceitem.me.org/">
+
+<xs:element name="getExamineInfo" type="tns:getExamineInfo" />
+
+<xs:element name="getExamineInfoResponse" type="tns:getExamineInfoResponse" />
+
+<xs:element name="getLastOrder" type="tns:getLastOrder" />
+
+<xs:element name="getLastOrderResponse" type="tns:getLastOrderResponse" />
+
+<xs:element name="getOrder" type="tns:getOrder" />
+
+<xs:element name="getOrderResponse" type="tns:getOrderResponse" />
+
+<xs:element name="getTakeInfo" type="tns:getTakeInfo" />
+
+<xs:element name="getTakeInfoResponse" type="tns:getTakeInfoResponse" />
+
+<xs:element name="hello" type="tns:hello" />
+
+<xs:element name="helloResponse" type="tns:helloResponse" />
+
+<xs:complexType name="getOrder">
+<xs:sequence>
+<xs:element name="orderNumber" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getOrderResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="hello">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="helloResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getLastOrder">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="getLastOrderResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getExamineInfo">
+<xs:sequence>
+<xs:element name="orderNumber" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getExamineInfoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getTakeInfo">
+<xs:sequence>
+<xs:element name="orderNumber" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getTakeInfoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

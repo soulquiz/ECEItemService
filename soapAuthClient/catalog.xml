@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="https://www.yenaura.com/ECEItemWS?wsdl" uri="xml-resources/web-service-references/ECEItemWS/wsdl/www.yenaura.com/ECEItemWS.wsdl"/>
+    <system systemId="https://www.yenaura.com:443/ECEItemWS?xsd=1" uri="xml-resources/web-service-references/ECEItemWS/wsdl/www.yenaura.com_443/ECEItemWS.xsd_1.xsd"/>
+</catalog>
