@@ -9,7 +9,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <meta name="google-site-verification" content="aUk85iecNXnazRWO1fLb9bx2ckfMFJAr8MEMgFDaVSA" />
+        <title>YenAuraPage</title>
     </head>
     <body>
         <h1>Hello World!</h1>

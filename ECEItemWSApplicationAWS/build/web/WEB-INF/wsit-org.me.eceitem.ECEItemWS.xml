@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <definitions 
+ xmlns="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="ECEItemWS" targetNamespace="http://eceitem.me.org/" xmlns:tns="http://eceitem.me.org/" 
+ >
+    <message name="hello"/>
+    <message name="helloResponse"/>
+    <message name="getLastOrder"/>
+    <message name="getLastOrderResponse"/>
+    <message name="getOrder"/>
+    <message name="getOrderResponse"/>
+    <message name="getExamineInfo"/>
+    <message name="getExamineInfoResponse"/>
+    <message name="getTakeInfo"/>
+    <message name="getTakeInfoResponse"/>
+    <portType name="ECEItemWS">
+        <operation name="hello">
+            <input message="tns:hello"/>
+            <output message="tns:helloResponse"/>
+        </operation>
+        <operation name="getLastOrder">
+            <input message="tns:getLastOrder"/>
+            <output message="tns:getLastOrderResponse"/>
+        </operation>
+        <operation name="getOrder">
+            <input message="tns:getOrder"/>
+            <output message="tns:getOrderResponse"/>
+        </operation>
+        <operation name="getExamineInfo">
+            <input message="tns:getExamineInfo"/>
+            <output message="tns:getExamineInfoResponse"/>
+        </operation>
+        <operation name="getTakeInfo">
+            <input message="tns:getTakeInfo"/>
+            <output message="tns:getTakeInfoResponse"/>
+        </operation>
+    </portType>
+    <binding name="ECEItemWSPortBinding" type="tns:ECEItemWS">
+        <operation name="hello">
+            <input/>
+            <output/>
+        </operation>
+        <operation name="getLastOrder">
+            <input/>
+            <output/>
+        </operation>
+        <operation name="getOrder">
+            <input/>
+            <output/>
+        </operation>
+        <operation name="getExamineInfo">
+            <input/>
+            <output/>
+        </operation>
+        <operation name="getTakeInfo">
+            <input/>
+            <output/>
+        </operation>
+    </binding>
+    <service name="ECEItemWS">
+        <port name="ECEItemWSPort" binding="tns:ECEItemWSPortBinding"/>
+    </service>
+</definitions>
